@@ -9,3 +9,10 @@ This sample shows how you can proxy challenge requests with Express to a remote 
  1. Use Node 4 or higher
  2. Set `REMOTE_HOST` and `REMOTE_PATH` in the config.json file or as environment variables
  3. `node server` to start the server.
+
+## Example
+
+If I have my files in Blob Storage in the `challenges` container (with Public Blob access), I would configure it as follows:
+
+ - `REMOTE_HOST`: `myaccount.blob.core.windows.net`
+ - `REMOTE_PATH`: `/challenges`
