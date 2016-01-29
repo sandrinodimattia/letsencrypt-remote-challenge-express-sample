@@ -1,0 +1,23 @@
+{
+  "name": "letsencrypt-remote-challenge-express-sample",
+  "version": "1.0.0",
+  "description": "Sample project that shows how you can load LetsEncrypt challenges from a remote location.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "letsencrypt",
+    "express"
+  ],
+  "engines": {
+    "node": "5.3.0"
+  },
+  "author": "Sandrino Di Mattia",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-http-proxy": "^0.6.0",
+    "nconf": "^0.8.2"
+  }
+}
